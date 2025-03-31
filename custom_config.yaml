@@ -1,0 +1,46 @@
+# Virtual Pet Breeder Bot Custom Configuration
+# This file lets you add custom species, traits, colors, and shop items
+
+# Add custom species
+species:
+  - "Fox"
+  - "Slime"
+  - "Ghost"
+  - "Mermaid"
+  - "Pixie"
+
+# Add custom traits
+traits:
+  - "Electric"
+  - "Hypnotic"
+  - "Venomous"
+  - "Musical"
+  - "Magical"
+
+# Add custom colors
+colors:
+  - "Platinum"
+  - "Obsidian"
+  - "Celestial"
+  - "Nebula"
+  - "Sunset"
+
+# Add or modify shop items
+shop_items:
+  # New custom items
+  "RarityPotion":
+    cost: 300
+    description: "Increases the rarity of a pet by one level"
+  "BreedingPotion":
+    cost: 250
+    description: "Guarantees a rare or higher pet when breeding"
+  "RestoreAll":
+    cost: 200
+    description: "Restores health and happiness for all your pets"
+    
+  # You can also modify existing items by including them here
+  # This will override the default configuration
+  # For example:
+  # "Food":
+  #   cost: 40  # Changed from default 50
+  #   description: "Restores 20 Health and Happiness" 

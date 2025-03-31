@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+*.env
+
+# Virtual Environments
+venv/
+env/
+ENV/
+
+# Data files (if needed to be kept private)
+pets.json
+
+# Discord token and secrets
+token.txt
+
+# Logs
+logs/
+*.log
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover 

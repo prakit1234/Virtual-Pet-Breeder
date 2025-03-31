@@ -1,0 +1,18 @@
+{
+    "pets": {
+        "1027606082358620190": [
+            {
+                "name": "Celestial Magical Cloud",
+                "health": 68,
+                "happiness": 55,
+                "strength": 22,
+                "rarity": "common",
+                "created_at": 1743416620.8329792
+            }
+        ]
+    },
+    "coins": {},
+    "inventory": {},
+    "daily_rewards": {},
+    "last_backup": 1743416589.8644965
+}

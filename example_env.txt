@@ -1,0 +1,24 @@
+# Example .env file for Virtual Pet Breeder Bot
+# Rename this file to .env and fill in your actual values
+
+# Discord Bot Configuration
+# Get your token from https://discord.com/developers/applications
+DISCORD_TOKEN=YOUR_TOKEN_HERE
+
+# Database Configuration
+PET_FILE=pets.json
+BACKUP_INTERVAL=3600  # Backup interval in seconds (default: 1 hour)
+
+# Game Settings
+STARTING_COINS=100
+MAX_PETS=5  # Maximum number of pets a user can have
+BASE_PRIZE_COINS=30  # Base coins for winning battles
+
+# Feature Flags (set to true or false)
+ENABLE_TRADING=true
+ENABLE_DAILY_REWARDS=true
+
+# To use this file:
+# 1. Rename it to .env
+# 2. Replace YOUR_TOKEN_HERE with your actual Discord bot token
+# 3. Customize other settings as needed 
