@@ -1,0 +1,174 @@
+{
+    "pets": {
+        "1027606082358620190": [
+            {
+                "name": "Celestial Magical Cloud",
+                "health": 68,
+                "happiness": 55,
+                "strength": 22,
+                "rarity": "common",
+                "created_at": 1743416620.8329792
+            },
+            {
+                "name": "Sunset Fierce Bird",
+                "health": 56,
+                "happiness": 56,
+                "strength": 16,
+                "rarity": "common",
+                "created_at": 1743576539.6163483,
+                "level": 1,
+                "xp": 50
+            },
+            {
+                "name": "Icy Mystic Rabbit",
+                "species": "Rabbit",
+                "color": "Icy",
+                "trait": "Mystic",
+                "health": 48,
+                "happiness": 46,
+                "strength": 9,
+                "rarity": "common",
+                "level": 1,
+                "xp": 0
+            },
+            {
+                "name": "Icy Clever Griffin",
+                "species": "Griffin",
+                "color": "Icy",
+                "trait": "Clever",
+                "health": 100,
+                "happiness": 82,
+                "strength": 28,
+                "rarity": "mythic",
+                "level": 2,
+                "xp": 0
+            },
+            {
+                "name": "Emerald Fierce Griffin",
+                "species": "Griffin",
+                "color": "Emerald",
+                "trait": "Fierce",
+                "health": 96,
+                "happiness": 83,
+                "strength": 25,
+                "rarity": "mythic",
+                "level": 1,
+                "xp": 0
+            }
+        ],
+        "921990520643936256": [
+            {
+                "name": "Azure Invisible Fox",
+                "health": 28,
+                "happiness": 99,
+                "strength": 24,
+                "rarity": "common",
+                "created_at": 1743423411.9892483
+            },
+            {
+                "name": "Sunset Winged Penguin",
+                "health": 89,
+                "happiness": 86,
+                "strength": 14,
+                "rarity": "common",
+                "created_at": 1743432519.0310023
+            },
+            {
+                "name": "Emerald Singing Penguin",
+                "health": 94,
+                "happiness": 98,
+                "strength": 16,
+                "rarity": "common",
+                "created_at": 1743434127.641715
+            },
+            {
+                "name": "Obsidian Metallic Dragon",
+                "health": 85,
+                "happiness": 72,
+                "strength": 16,
+                "rarity": "common",
+                "created_at": 1743434583.8285127
+            },
+            {
+                "name": "Neon Glowy Cactus",
+                "health": 96,
+                "happiness": 85,
+                "strength": 20,
+                "rarity": "common",
+                "created_at": 1743575407.7777455
+            }
+        ],
+        "676381907746816001": [
+            {
+                "name": "Neon Invisible Dragon",
+                "health": 34,
+                "happiness": 74,
+                "strength": 21,
+                "rarity": "common",
+                "created_at": 1743434119.145093
+            },
+            {
+                "name": "Icy Electric Robot",
+                "health": 75,
+                "happiness": 61,
+                "strength": 11,
+                "rarity": "common",
+                "created_at": 1743434131.7830753
+            },
+            {
+                "name": "Emerald Singing Jellyfish",
+                "health": 71,
+                "happiness": 60,
+                "strength": 22,
+                "rarity": "common",
+                "created_at": 1743434520.0689335
+            },
+            {
+                "name": "Platinum Invisible Dragon",
+                "health": 64,
+                "happiness": 80,
+                "strength": 13,
+                "rarity": "common",
+                "created_at": 1743434523.2701507
+            },
+            {
+                "name": "Rainbow Mystic Slime",
+                "health": 74,
+                "happiness": 68,
+                "strength": 20,
+                "rarity": "common",
+                "created_at": 1743434586.6470253
+            }
+        ],
+        "1354080862693752872": [],
+        "1337450292555419739": [
+            {
+                "name": "Neon Agile Hamster",
+                "species": "Hamster",
+                "color": "Neon",
+                "trait": "Agile",
+                "health": 1,
+                "happiness": 55,
+                "strength": 6,
+                "rarity": "common",
+                "level": 1,
+                "xp": 75
+            }
+        ]
+    },
+    "coins": {
+        "1027606082358620190": 487,
+        "921990520643936256": 1000000000066,
+        "676381907746816001": 33,
+        "1354080862693752872": 0
+    },
+    "inventory": {
+        "1027606082358620190": {
+            "Food": 1
+        }
+    },
+    "daily_rewards": {
+        "1027606082358620190": 1743575558.6410792
+    },
+    "last_backup": 1743578568.2774627
+}

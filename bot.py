@@ -31,7 +31,8 @@ bot = commands.Bot(command_prefix="!", intents=intents, help_command=None)
 # Cogs to load
 COGS = [
     "cogs.pet_commands",
-    "cogs.shop_commands"
+    "cogs.shop_commands",
+    "cogs.admin_commands"
 ]
 
 @bot.event
@@ -150,6 +151,26 @@ async def custom_help(ctx, command_name=None):
         embed.set_footer(text="For more details on a command, use !help <command>")
         await ctx.send(embed=embed)
 
+@bot.command(name="about")
+async def about(self, ctx):
+    """Display information about the bot"""
+    embed = create_embed(
+        title="Virtual Pet Breeder Bot",
+        description="A Discord bot where you can adopt, breed, and battle virtual pets!",
+        color=0x9B59B6,
+        fields=[
+            ("Version", "1.2.0", True),
+            ("Creator", "Your Name", True),
+            ("Library", f"discord.py {discord.__version__}", True),
+            ("Commands", "Use `!help` to see all commands", False),
+            ("Support", "Contact the admin for any issues or suggestions", False),
+            ("Premium Features", "Admin panel and advanced pet features available for server owners", False)
+        ]
+    )
+    embed.set_thumbnail(url=bot.user.avatar.url if bot.user.avatar else discord.Embed.Empty)
+    
+    await ctx.send(embed=embed)
+
 async def load_cogs():
     """Load all cogs"""
     for cog in COGS:
@@ -168,9 +189,7 @@ async def main():
     if not validate_config():
         logger.error("Invalid configuration. Check your .env file.")
         return
-        
     
-        
     # Create cogs directory if it doesn't exist
     os.makedirs("cogs", exist_ok=True)
     
@@ -182,8 +201,8 @@ async def main():
     # Load cogs
     logger.info("Loading cogs...")
     await load_cogs()
-    
-    # Run the bot
+
+# Run the bot
     logger.info("Starting bot...")
     try:
         async with bot:
